@@ -8,7 +8,7 @@ privateConnectionName="pcon-${LOGNAME}Mongo-az-usw3-sbx-001"
 
 location="West US 3"
 databaseDev="dev-tutorial"
-databaseProd="tutorial"
+databaseProd="sit-tutorial"
 serverVersion="4.2"
 cosmosDbSubResourceType="MongoDB"
 
