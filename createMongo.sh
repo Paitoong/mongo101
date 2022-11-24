@@ -33,7 +33,7 @@ echo "2. Creating dev database $databaseDev"
 az cosmosdb mongodb database create --account-name $account --resource-group $resourceGroup --name $databaseDev
 
 # create prod database 
-echo "3. Creating prod database $databaseProd" 
+echo "3. Creating sit database $databaseProd" 
 az cosmosdb mongodb database create --account-name $account --resource-group $resourceGroup --name $databaseProd
 
 # create private endpoint
